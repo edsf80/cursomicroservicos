@@ -6,10 +6,10 @@ Roteiro minicurso Spring Cloud
 2. Importar o projeto config server.
 3. No product adicionar as dependencias do config client.
 
-<dependency>
-	<groupId>org.springframework.cloud</groupId>
-	<artifactId>spring-cloud-starter-config</artifactId>
-</dependency>
+&lt;dependency&gt;
+	&lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt;
+	&lt;artifactId&gt;spring-cloud-starter-config&lt;/artifactId&gt;
+&lt;/dependency&gt;
 
 4. No product criar o bootstrap.properties e adicionar a propriedade spring.application.name=ecommerce-product spring.cloud.config.uri=http://localhost:8180
 
