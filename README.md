@@ -13,7 +13,12 @@ Roteiro minicurso Spring Cloud
 </dependency>
 ```
 
-4. No product criar o bootstrap.properties e adicionar a propriedade spring.application.name=ecommerce-product spring.cloud.config.uri=http://localhost:8180
+4. No product criar o bootstrap.properties e adicionar as propriedades:
+
+```
+spring.application.name=ecommerce-product 
+spring.cloud.config.uri=http://localhost:8180
+```
 
 5. Fazer o split do projeto em dois, importar cart que está no git e apagar parte de cart do product.
 
@@ -28,7 +33,11 @@ Roteiro minicurso Spring Cloud
 </dependency>
 ```
 
-Adicionar no config do proudct: eureka.client.serviceUrl.defaultZone=http://localhost:8380/eureka/
+Adicionar no config do proudct: 
+
+```
+eureka.client.serviceUrl.defaultZone=http://localhost:8380/eureka/
+```
 
 8. Configurar API e cart para eureka.
 
